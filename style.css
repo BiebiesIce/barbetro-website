@@ -262,4 +262,19 @@ h1, h2, h3 {
 section {
   border-top: 1px solid rgba(255,255,255,0.05);
 }
+/* Animasi scroll */
+.fade-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.fade-section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.fade-section {
+  opacity: 1;
+  transform: none;
+}
 
