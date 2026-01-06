@@ -368,6 +368,6 @@ section {
 body {
   background-color: #000;
   background-image: radial-gradient(circle, rgba(255,215,0,0.1) 1px, transparent 1px);
-  background-size: 40px 40px;
+  background-size: 80px 80px; /* sebelumnya 40px */
 }
 
