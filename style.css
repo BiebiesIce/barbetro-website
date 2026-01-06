@@ -79,3 +79,73 @@ h2 {
 .contact {
   text-align: center;
 }
+.price h2 {
+  color: #c59d5f;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #c59d5f;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.price-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.price-card h3 {
+  color: #111;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.price-card .desc {
+  color: #444;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.price-card .price-tag {
+  color: #c59d5f;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+}
+#gallery {
+  padding: 50px 20px;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 12px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  padding: 0 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
