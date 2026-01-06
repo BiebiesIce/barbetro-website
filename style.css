@@ -199,3 +199,13 @@ section {
   align-items: center;
   text-align: center;
 }
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.hero * {
+  position: relative;
+}
