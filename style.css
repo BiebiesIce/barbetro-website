@@ -149,3 +149,30 @@ h2 {
 .gallery img:hover {
   transform: scale(1.05);
 }
+#pricelist {
+  padding: 60px 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+#pricelist h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.price-list {
+  max-width: 500px;
+  margin: auto;
+}
+
+.price-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+}
+
+.price-item strong {
+  color: #111;
+}
